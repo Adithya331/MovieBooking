@@ -43,7 +43,7 @@ function SelectSeat() {
       };
       
   return (
-    <div style={{padding:'2rem', height:'90vh'}}>
+    <div style={{padding:'2rem', height:'95vh'}}>
         <div style={{display:'flex', gap:'17rem'}}>
             <h4>{location.state.title}</h4>
             <p>Screen this way</p>
