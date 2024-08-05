@@ -27,7 +27,7 @@ export default function App() {
           {
             navigate('/home')}
           }
-          }><img src={logo} height={40}></img>Confirm Ticket</Navbar.Brand>
+          }><img src={logo} height={40}></img><span style={{fontFamily:'cursive', fontSize:'1.5rem'}}>Confirm Ticket</span></Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
          {user && <Button onClick={()=>{
